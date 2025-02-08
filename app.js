@@ -5,7 +5,7 @@ document.getElementById('keys').addEventListener('click', (e) => {
             } catch {
                 display.value = 'its an error';
             }
-    else if (e.target.value === 'C') display.value = '';
+    else if (e.target.value === 'AC') display.value = '';
     else if (e.target.value === 'D') 
         // display.value = display.value.slice(0, -1);
     display.value = display.value.substring(0, display.value.length - 1);
